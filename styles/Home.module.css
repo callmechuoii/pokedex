@@ -1,0 +1,91 @@
+.columnas {
+	list-style: none;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	border: 1px solid #fff;
+	padding: 15px;
+	position: relative;
+	display: flex;
+	border-radius: 20px;
+	margin: 10px;
+	width: 200px;
+	height: 100px;
+}
+.nombreTipos {
+	display: flex;
+	flex-direction: column;
+}
+.nombreTipos h3 {
+	margin: 0;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.card .imagen {
+	position: absolute;
+	right: -15px;
+	top: 10px;
+}
+
+.card .tipo {
+	color: #fff;
+	background-color: rgba(255, 255, 230, 0.3);
+	margin: 4px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 2px 10px;
+	text-transform: capitalize;
+	font-size: 10px;
+	place-self: flex-start;
+}
+
+.card .tipos {
+	display: flex;
+	flex-shrink: wrap;
+	flex-direction: column;
+}
+
+.filtros {
+	display: flex;
+	padding: 15px;
+}
+.botones {
+	display: flex;
+	overflow: auto;
+	padding: 0 15px;
+}
+
+.botonFiltro {
+	border-radius: 20px;
+	padding: 3px 15px;
+	margin: 0 5px;
+	text-transform: capitalize;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+}
+.botonTodos {
+	color: #000;
+}
+
+.loadMore {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.loadMoreBtn {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: 0px;
+	border-radius: 10px;
+	background-color: #00ca91;
+	color: white;
+	font-weight: bold;
+}
